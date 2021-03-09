@@ -9,11 +9,20 @@
 /* Begin PBXBuildFile section */
 		8276851025F72F3300682B1D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8276850F25F72F3300682B1D /* AppDelegate.swift */; };
 		8276851225F72F3300682B1D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8276851125F72F3300682B1D /* SceneDelegate.swift */; };
-		8276851425F72F3300682B1D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8276851325F72F3300682B1D /* ViewController.swift */; };
+		8276851425F72F3300682B1D /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8276851325F72F3300682B1D /* HomeViewController.swift */; };
 		8276851925F72F3600682B1D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8276851825F72F3600682B1D /* Assets.xcassets */; };
 		8276851C25F72F3600682B1D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8276851A25F72F3600682B1D /* LaunchScreen.storyboard */; };
 		8276852725F72F3700682B1D /* SpotifyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8276852625F72F3700682B1D /* SpotifyTests.swift */; };
 		8276853225F72F3700682B1D /* SpotifyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8276853125F72F3700682B1D /* SpotifyUITests.swift */; };
+		8276856025F7383100682B1D /* TabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8276855F25F7383100682B1D /* TabViewController.swift */; };
+		8276856525F7385600682B1D /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8276856425F7385600682B1D /* SearchViewController.swift */; };
+		8276856A25F7386400682B1D /* LibraryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8276856925F7386400682B1D /* LibraryViewController.swift */; };
+		8276857425F738BE00682B1D /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8276857325F738BE00682B1D /* WelcomeViewController.swift */; };
+		8276857925F738D200682B1D /* AuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8276857825F738D200682B1D /* AuthViewController.swift */; };
+		8276857E25F738DD00682B1D /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8276857D25F738DD00682B1D /* SettingViewController.swift */; };
+		8276858625F7393A00682B1D /* PlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8276858525F7393A00682B1D /* PlayerViewController.swift */; };
+		8276858E25F7394C00682B1D /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8276858D25F7394C00682B1D /* ProfileViewController.swift */; };
+		8276859325F739BF00682B1D /* SearchResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8276859225F739BF00682B1D /* SearchResultViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +46,7 @@
 		8276850C25F72F3300682B1D /* Spotify.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Spotify.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8276850F25F72F3300682B1D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8276851125F72F3300682B1D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		8276851325F72F3300682B1D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8276851325F72F3300682B1D /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		8276851825F72F3600682B1D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8276851B25F72F3600682B1D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8276851D25F72F3600682B1D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -47,6 +56,15 @@
 		8276852D25F72F3700682B1D /* SpotifyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpotifyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8276853125F72F3700682B1D /* SpotifyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotifyUITests.swift; sourceTree = "<group>"; };
 		8276853325F72F3700682B1D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8276855F25F7383100682B1D /* TabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewController.swift; sourceTree = "<group>"; };
+		8276856425F7385600682B1D /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		8276856925F7386400682B1D /* LibraryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryViewController.swift; sourceTree = "<group>"; };
+		8276857325F738BE00682B1D /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		8276857825F738D200682B1D /* AuthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewController.swift; sourceTree = "<group>"; };
+		8276857D25F738DD00682B1D /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
+		8276858525F7393A00682B1D /* PlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerViewController.swift; sourceTree = "<group>"; };
+		8276858D25F7394C00682B1D /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		8276859225F739BF00682B1D /* SearchResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,7 +120,7 @@
 				8276854525F72F7E00682B1D /* views */,
 				8276854425F72F7300682B1D /* models */,
 				8276854325F72F6600682B1D /* viewmodels */,
-				8276854225F72F5D00682B1D /* controllers */,
+				8276854225F72F5D00682B1D /* viewcontrollers */,
 				8276851D25F72F3600682B1D /* Info.plist */,
 			);
 			path = Spotify;
@@ -126,12 +144,16 @@
 			path = SpotifyUITests;
 			sourceTree = "<group>";
 		};
-		8276854225F72F5D00682B1D /* controllers */ = {
+		8276854225F72F5D00682B1D /* viewcontrollers */ = {
 			isa = PBXGroup;
 			children = (
-				8276851325F72F3300682B1D /* ViewController.swift */,
+				8276858425F7391700682B1D /* player */,
+				8276858325F7390200682B1D /* profile */,
+				8276858225F738F100682B1D /* others */,
+				8276856F25F738A000682B1D /* auth */,
+				8276856E25F7387C00682B1D /* homeScreen */,
 			);
-			path = controllers;
+			path = viewcontrollers;
 			sourceTree = "<group>";
 		};
 		8276854325F72F6600682B1D /* viewmodels */ = {
@@ -171,6 +193,51 @@
 				8276851125F72F3300682B1D /* SceneDelegate.swift */,
 			);
 			path = resources;
+			sourceTree = "<group>";
+		};
+		8276856E25F7387C00682B1D /* homeScreen */ = {
+			isa = PBXGroup;
+			children = (
+				8276851325F72F3300682B1D /* HomeViewController.swift */,
+				8276855F25F7383100682B1D /* TabViewController.swift */,
+				8276856425F7385600682B1D /* SearchViewController.swift */,
+			);
+			path = homeScreen;
+			sourceTree = "<group>";
+		};
+		8276856F25F738A000682B1D /* auth */ = {
+			isa = PBXGroup;
+			children = (
+				8276857325F738BE00682B1D /* WelcomeViewController.swift */,
+				8276857825F738D200682B1D /* AuthViewController.swift */,
+			);
+			path = auth;
+			sourceTree = "<group>";
+		};
+		8276858225F738F100682B1D /* others */ = {
+			isa = PBXGroup;
+			children = (
+				8276857D25F738DD00682B1D /* SettingViewController.swift */,
+				8276859225F739BF00682B1D /* SearchResultViewController.swift */,
+			);
+			path = others;
+			sourceTree = "<group>";
+		};
+		8276858325F7390200682B1D /* profile */ = {
+			isa = PBXGroup;
+			children = (
+				8276858D25F7394C00682B1D /* ProfileViewController.swift */,
+			);
+			path = profile;
+			sourceTree = "<group>";
+		};
+		8276858425F7391700682B1D /* player */ = {
+			isa = PBXGroup;
+			children = (
+				8276856925F7386400682B1D /* LibraryViewController.swift */,
+				8276858525F7393A00682B1D /* PlayerViewController.swift */,
+			);
+			path = player;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -302,9 +369,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8276851425F72F3300682B1D /* ViewController.swift in Sources */,
+				8276856525F7385600682B1D /* SearchViewController.swift in Sources */,
+				8276856025F7383100682B1D /* TabViewController.swift in Sources */,
+				8276851425F72F3300682B1D /* HomeViewController.swift in Sources */,
 				8276851025F72F3300682B1D /* AppDelegate.swift in Sources */,
+				8276857925F738D200682B1D /* AuthViewController.swift in Sources */,
+				8276857E25F738DD00682B1D /* SettingViewController.swift in Sources */,
+				8276858E25F7394C00682B1D /* ProfileViewController.swift in Sources */,
+				8276856A25F7386400682B1D /* LibraryViewController.swift in Sources */,
 				8276851225F72F3300682B1D /* SceneDelegate.swift in Sources */,
+				8276857425F738BE00682B1D /* WelcomeViewController.swift in Sources */,
+				8276859325F739BF00682B1D /* SearchResultViewController.swift in Sources */,
+				8276858625F7393A00682B1D /* PlayerViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
