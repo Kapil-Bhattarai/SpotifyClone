@@ -15,7 +15,15 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
         let window = UIWindow(frame: UIScreen.main.bounds)
-        window.rootViewController = HomeViewController()
+        if AuthManager.shared.isSignedUser {
+            window.rootViewController = TabViewController()
+        } else {
+            let navVc =  UINavigationController(rootViewController: WelcomeViewController())
+            navVc.viewControllers.first?.navigationItem.largeTitleDisplayMode = .always
+            navVc.navigationBar.prefersLargeTitles = true
+            window.rootViewController = navVc
+        }
+        
         window.makeKeyAndVisible()
         self.window = window
         return true
